@@ -1,17 +1,24 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Nav() {
   return (
     <div className="nav">
       <ul>
         <li>
-          <a href="#home"> Home </a>
+          <NavLink activeClassName="selected" to="/">
+            Home
+          </NavLink>
         </li>
         <li>
-          <a href="#product"> Product </a>
+          <NavLink activeClassName="selected" to="/product">
+            Product
+          </NavLink>
         </li>
         <li>
-          <a href="#contact"> Contact </a>
+          <NavLink activeClassName="selected" to="/contact">
+            Contact
+          </NavLink>
         </li>
       </ul>
     </div>
