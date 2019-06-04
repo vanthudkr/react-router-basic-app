@@ -1,0 +1,57 @@
+.App-logo {
+  animation: App-logo-spin alternate 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-route-place {
+  border: 1px solid #bb8fce;
+  margin: 3px;
+  padding: 5px;
+}
+
+.secondary-route-place {
+  border: 1px solid #a2d9ce;
+  margin: 5px;
+  padding: 5px;
+}
+
+/*Create css react router*/
+.nav {
+  display: flex;
+  background-color: bisque;
+}
+
+.nav ul > li {
+  display: inline;
+  margin-left: 360px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00b8ff;
+  height: 830px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+}
+
+.course {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
